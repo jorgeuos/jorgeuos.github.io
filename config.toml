@@ -3,7 +3,7 @@ languageCode = 'en-us'
 defaultContentLanguage = "en"
 title = 'jorgeuos | Absolutely!'
 theme = "DoIt"
-publishdir = "./public"
+# publishdir = "./public"
 
 [params]
   # DoIt theme version

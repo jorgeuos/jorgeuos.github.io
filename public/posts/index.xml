@@ -1,11 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>jorgeuos | Absolutely!</title>
-        <link>https://jorgeuos.github.io/</link>
-        <description>jorgeuos | Absolutely!</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 29 Jan 2022 01:18:11 &#43;0100</lastBuildDate>
-            <atom:link href="https://jorgeuos.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <title>All Posts - jorgeuos | Absolutely!</title>
+        <link>https://jorgeuos.github.io/posts/</link>
+        <description>All Posts | jorgeuos | Absolutely!</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 29 Jan 2022 01:18:11 &#43;0100</lastBuildDate><atom:link href="https://jorgeuos.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Install Hugo</title>
     <link>https://jorgeuos.github.io/posts/install-hugo/</link>
     <pubDate>Sat, 29 Jan 2022 01:18:11 &#43;0100</pubDate><author>

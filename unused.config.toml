@@ -1,0 +1,152 @@
+[params.social]
+    Telegram = "xxxx"
+    Medium = ""
+    Youtubelegacy = ""
+    Youtubecustom = ""
+    Youtubechannel = ""
+    Tumblr = ""
+    Quora = ""
+    Keybase = ""
+    Pinterest = ""
+    Reddit = ""
+    Bitbucket = ""
+    Weibo = ""
+    Odnoklassniki = ""
+    VK = ""
+    Flickr = ""
+    Xing = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Bandcamp = ""
+    Paypal = ""
+    Fivehundredpx = ""
+    Mix = ""
+    Goodreads = ""
+    Lastfm = ""
+    Foursquare = ""
+    Hackernews = ""
+    Kickstarter = ""
+    Patreon = ""
+    Steam = ""
+    Twitch = ""
+    Strava = ""
+    Skype = ""
+    Whatsapp = ""
+    Zhihu = ""
+    Douban = ""
+    Angellist = ""
+    Slidershare = ""
+    Deviantart = ""
+    Behance = ""
+    Dribbble = ""
+    Wordpress = ""
+    Vine = ""
+    Googlescholar = ""
+    Researchgate = ""
+    Mastodon = ""
+    Thingiverse = ""
+    Devto = ""
+    Gitea = ""
+    XMPP = ""
+    Matrix = ""
+    Bilibili = ""
+    ORCID = ""
+    Liberapay = ""
+    Ko-Fi = ""
+    BuyMeACoffee = ""
+    Linktree = ""
+    QQ = ""
+    QQGroup = ""
+
+# All params
+[params]
+keywords = ["Jorgeuos", "Github", "Matomo", "PHP", "Golang", "VueJS", "JS", "Kubernetes", "Docker", "Terraform"]
+images = ["/logo.png"]
+[params.app]
+[params.search]
+[params.search.algolia]
+[params.search.fuse]
+[params.header]
+[params.header.title]
+[params.footer]
+[params.section]
+[params.section.recentlyUpdated]
+[params.list]
+[params.home]
+[params.home.profile]
+[params.home.posts]
+[params.social]
+[params.page]
+# "https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|
+[params.page.outdatedArticleReminder]
+[params.page.toc]
+[params.page.math]
+# default block delimiter is $$ ... $$ and \\[ ... \\]
+[params.page.code]
+[params.page.table]
+[params.page.mapbox]
+[params.page.share]
+[params.page.comment]
+[params.page.comment.disqus]
+[params.page.comment.gitalk]
+[params.page.comment.valine]
+[params.page.comment.waline]
+emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+meta = ['nick', 'mail', 'link']
+requiredMeta = []
+[params.page.comment.facebook]
+[params.page.comment.telegram]
+[params.page.comment.commento]
+[params.page.comment.utterances]
+[params.page.comment.twikoo]
+[params.page.comment.vssue]
+[params.page.comment.remark42]
+[params.page.comment.giscus]
+[params.page.library]
+[params.page.library.css]
+# [params.page.library.css.someOtherCSS]
+[params.page.library.js]
+# [params.page.library.js.someOtherJavaScript]
+[params.page.seo]
+images = []
+[params.page.seo.publisher]
+[params.sponsor]
+[params.typeit]
+[params.verification]
+[params.seo]
+[params.analytics]
+[params.analytics.google]
+[params.analytics.fathom]
+[params.analytics.baidu]
+[params.analytics.umami]
+[params.analytics.plausible]
+[params.analytics.cloudflare]
+[params.cookieconsent]
+[params.cookieconsent.content]
+[params.cdn]
+[params.compatibility]
+[markup]
+[markup.highlight]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.renderer]
+[markup.tableOfContents]
+[author]
+[sitemap]
+[Permalinks]
+[privacy]
+[privacy.googleAnalytics]
+[privacy.twitter]
+[privacy.youtube]
+[mediaTypes]
+[mediaTypes."text/plain"]
+suffixes = ["md"]
+[outputFormats.MarkDown]
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "MarkDown"]
+section = ["HTML", "RSS"]
+taxonomy = ["HTML", "RSS"]
+taxonomyTerm = ["HTML"]
+[taxonomies]

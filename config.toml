@@ -17,7 +17,7 @@ theme = "DoIt"
   #  site default theme ("light", "dark", "black", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = ""
+  gitRepo = "https://github.com/jorgeuos/jorgeuos.github.io"
   #  which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
@@ -90,11 +90,11 @@ theme = "DoIt"
       # title name
       name = "jorgeuos"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='far fa-code fa-fw'></i>"
+      pre = "<i class='fa fa-code fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       #  whether to use typeit animation for title name
-      typeit = false
+      typeit = true
 
   # Footer config
   [params.footer]
@@ -105,7 +105,7 @@ theme = "DoIt"
     hugo = false
     #  Hosted on (HTML format is supported)
     # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
-    hostedOn = '<a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>'
+    hostedOn = '<a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a> | <a title="Github Repo" href="https://github.com/jorgeuos/jorgeuos.github.io" target="_blank" rel="noopener noreffer">GitHub Repo</a>'
     #  whether to show copyright info
     copyright = true
     #  whether to show the author
@@ -122,7 +122,7 @@ theme = "DoIt"
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
-    dateFormat = "01-02"
+    dateFormat = "02/01"
     # amount of RSS pages
     rss = 10
     #  recently updated posts settings
@@ -159,7 +159,7 @@ theme = "DoIt"
       # subtitle shown in home page
       subtitle = "Welcome to my site."
       # whether to use typeit animation for subtitle
-      typeit = false
+      typeit = true
       # whether to show social links
       social = true
       #  disclaimer (HTML format is supported)
@@ -635,3 +635,41 @@ author = "authors"
 category = "categories"
 tag = "tags"
 series = "series"
+
+# Change menu here
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = "Posts"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = "Tags"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = "Categories"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = "About"
+    weight = 4

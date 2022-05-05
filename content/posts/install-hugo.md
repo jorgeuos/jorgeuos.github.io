@@ -2,6 +2,8 @@
 title: "Install Hugo"
 date: 2022-01-29T01:18:11+01:00
 draft: false
+tags: ["hugo","go"]
+categories: ["Markdown"]
 ---
 
 # Installing my first GH pages

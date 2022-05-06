@@ -639,6 +639,22 @@ series = "series"
 # Change menu here
 [menu]
   [[menu.main]]
+    identifier = "github"
+    pre = ""
+    post = ""
+    name = "Github"
+    url = "https://github.com/jorgeuos"
+    title = "github.com/jorgeuos"
+    weight = 1
+  [[menu.main]]
+    identifier = "gists"
+    pre = ""
+    post = ""
+    name = "Gists"
+    url = "https://gist.github.com/jorgeuos"
+    title = "gist.github.com/jorgeuos"
+    weight = 2
+  [[menu.main]]
     identifier = "posts"
     # you can add extra information before the name (HTML format is supported), such as icons
     pre = ""
@@ -648,7 +664,7 @@ series = "series"
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = "Posts"
-    weight = 1
+    weight = 3
   [[menu.main]]
     identifier = "tags"
     pre = ""
@@ -656,7 +672,7 @@ series = "series"
     name = "Tags"
     url = "/tags/"
     title = "Tags"
-    weight = 2
+    weight = 4
   [[menu.main]]
     identifier = "categories"
     pre = ""
@@ -664,7 +680,7 @@ series = "series"
     name = "Categories"
     url = "/categories/"
     title = "Categories"
-    weight = 3
+    weight = 5
   [[menu.main]]
     identifier = "about"
     pre = ""
@@ -672,4 +688,4 @@ series = "series"
     name = "About"
     url = "/about/"
     title = "About"
-    weight = 4
+    weight = 6

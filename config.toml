@@ -122,7 +122,7 @@ theme = "DoIt"
     # special amount of posts in each section page
     paginate = 20
     # date format (month and day)
-    dateFormat = "02/01"
+    dateFormat = "2/1"
     # amount of RSS pages
     rss = 10
     #  recently updated posts settings

@@ -1,0 +1,7 @@
+# We Are Developers Conference in Berlin
+
+So my company decided that we were gonna join the **We Are Developers** conference in Berlin. Which I never had heard about before, but I've been to conferences in Berlin twice before. So I knew it was going to be a blast... mostly I was looking forward to get a full night sleep after 2 years of having babies. Spolier alert... Berlin doesn't alowe it. Or my brain has acostumed to be alert for waking up incase babies needs to be taken care of, different story.
+
+Anyways, so because of the pandemic and other personal development decisions, it's been a while since I attended a tech con, so I was very excited. The Keynote speaker on the first day, Thomas Dohmke, CEO of Github. I had no clue who he was, I know of Tim... whatever, founder of Github and that they used Ruby on Rails and the Open Source community, because that's what we do. And I use Github, mostly more then anything in my profession. So I was very excited to listen to him. I've been exploring a lots of features on Gihub, and being more active in communities then ever before. Perhaps I'll write a blog post about that too, got lots to say about that.
+
+Well, he presented himself and talked about being a Berliner and he was very happy to be back in his hometown. He shared som nostalgic pictures, and he was very open. The key take aways from his presentation was CoPilot and Cospaces.
